@@ -22,13 +22,13 @@ app.on('window-all-closed', function() {
 // и будет готов к созданию браузерных окон.
 app.on('ready', function() {
   // Создаем окно браузера.
-  mainWindow = new BrowserWindow({width: 800, height: 600});
+  mainWindow = new BrowserWindow({width: 998, height: 585});
 
   // и загружаем файл index.html нашего веб приложения.
   mainWindow.loadURL('file://' + __dirname + '/index.html');
 
   // Открываем DevTools.
-  mainWindow.webContents.openDevTools();
+  // mainWindow.webContents.openDevTools();
 
   // Этот метод будет выполнен когда генерируется событие закрытия окна.
   mainWindow.on('closed', function() {

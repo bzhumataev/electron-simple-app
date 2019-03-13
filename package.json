@@ -3,9 +3,18 @@
   "version": "0.0.1",
   "main": "main.js",
   "scripts": {
-    "start": "./node_modules/.bin/electron ."
+    "start": "./node_modules/.bin/electron .",
+    "dist": "build"
   },
-  "dependencies": {
-    "electron-prebuilt": "^0.35.2"
+  "devDependencies": {
+    "electron": "1.4.13",
+    "electron-builder": "20.39.0"
+  },
+  "build": {
+    "appId": "com.qwerty.quickbuild",
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.ico"
+    }
   }
 }

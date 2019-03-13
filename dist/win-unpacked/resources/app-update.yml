@@ -1,0 +1,4 @@
+owner: bzhumataev
+repo: electron-simple-app
+provider: github
+updaterCacheDirName: electron-simple-app-updater

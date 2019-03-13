@@ -1,0 +1,8 @@
+version: 0.0.1
+files:
+  - url: electron-simple-app-setup-0.0.1.exe
+    sha512: h7HJJqYH5nPf13RmZHIEXNvcRwcA/gzJT5twcIqzJvbb9XgeQiIZE4hUJqdujH0AoZL7PMIonypFNmjPCcQJkA==
+    size: 37460947
+path: electron-simple-app-setup-0.0.1.exe
+sha512: h7HJJqYH5nPf13RmZHIEXNvcRwcA/gzJT5twcIqzJvbb9XgeQiIZE4hUJqdujH0AoZL7PMIonypFNmjPCcQJkA==
+releaseDate: '2019-03-13T21:59:31.668Z'
